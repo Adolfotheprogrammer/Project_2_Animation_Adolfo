@@ -1,1 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Arimo")
+@import url("https://fonts.googleapis.com/css?family=Arimo");
+
+p{font-family: Arimo;}
+
+body{background-color: skyblue}
+
+h1{text-align: center; color: darkred; font-family: Arimo;}
