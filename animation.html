@@ -6,7 +6,9 @@
   </head>
   <body>
     <h1> Super Mario</h1>
-<p> This is an animation of Super Mario hitting a brick with his head. When he hits the brick, the brick fades away. What inspired me to do this that in the video game, Super Mario does this to clear out bricks in his way.</p>
+    <div>
+      <p> This is an animation of Super Mario hitting a brick with his head. When he hits the brick, the brick fades away. What inspired me to do this that in the video game, Super Mario does this to clear out bricks in his way.</p>
+    </div>
 <svg width="95%" viewBox="0 0 200 100">
   <rect x="60" y="50" width="22" height="25" fill="red">
   <animate attributeName="y" from="50" to="40" repeatCount="indefinite" dur="5s"/>
@@ -32,20 +34,58 @@
   <animate attributeName="y1" from="46" to="36" repeatCount="indefinite" dur="5s"/>
   <animate attributeName="y2" from="50" to="40" repeatCount="indefinite" dur="5s"/>
 </line>
-<circle cx="81" cy="35" r="3" fill="white"/>
-<circle cx="82" cy="35" r="1.3" />
-<rect x="65" y="25" width="25" height="7" fill="red"/>
-<rect x="65" y="23" width="20" height="3" fill="red"/>
-<line x1="62" y1="52" x2="45" y2="69" stroke-width="5" stroke="darkblue"/>
-<line x1="80" y1="52" x2="97" y2="66" stroke-width="5" stroke="darkblue"/>
-<ellipse cx="81" cy="43" rx="2" ry="1.5"/>
-<line x1="66" y1="50" x2="66" y2="75" stroke="darkblue" stroke-width="4"/>
-<line x1="76.5" y1="50" x2="76.5" y2="75" stroke="darkblue" stroke-width="4"/>
-<circle cx="66" cy="72" r="2" fill="yellow"/>
-<circle cx="76.5" cy="72" r="2" fill="yellow"/>
-<circle cx="44" cy="70" r="4" fill="tan"/>
-<circle cx="99" cy="68" r="4" fill="tan"/>
-<rect x="65" y="5" width="30" height="14" fill="brown"/>
+<circle cx="81" cy="35" r="3" fill="white">
+<animate attributeName="cy" from="35" to="25" repeatCount="indefinite" dur="5s"/>
+</circle>
+<circle cx="82" cy="35" r="1.3">
+  <animate attributeName="cy" from="35" to="25" repeatCount="indefinite" dur="5s"/>
+</circle>
+<rect x="65" y="25" width="25" height="7" fill="red">
+  <animate attributeName="y" from="25" to="15" repeatCount="indefinite" dur="5s"/>
+</rect>
+<rect x="65" y="23" width="20" height="3" fill="red">
+<animate attributeName="y" from="23" to="13" repeatCount="indefinite" dur="5s"/>
+</rect>
+<line x1="62" y1="52" x2="45" y2="69" stroke-width="5" stroke="darkblue">
+<animate attributeName="y1" from="52" to="42" repeatCount="indefinite" dur="5s"/>
+<animate attributeName="y2" from="69" to="59" repeatCount="indefinite" dur="5s"/>
+</line>
+<line x1="80" y1="52" x2="97" y2="66" stroke-width="5" stroke="darkblue">
+<animate attributeName="y1" from="52" to="42" repeatCount="indefinite" dur="5s"/>
+<animate attributeName="y2" from="66" to="56" repeatCount="indefinite" dur="5s"/>
+</line>
+<ellipse cx="81" cy="43" rx="2" ry="1.5">
+<animate attributeName="cy" from="43" to="33" repeatCount="indefinite" dur="5s"/>
+</ellipse>
+<line x1="66" y1="50" x2="66" y2="75" stroke="darkblue" stroke-width="4">
+  <animate attributeName="y1" from="50" to="40" repeatCount="indefinite" dur="5s"/>
+  <animate attributeName="y2" from="75" to="65" repeatCount="indefinite" dur="5s"/>
+</line>
+<line x1="76.5" y1="50" x2="76.5" y2="75" stroke="darkblue" stroke-width="4">
+  <animate attributeName="y1" from="50" to="40" repeatCount="indefinite" dur="5s"/>
+  <animate attributeName="y2" from="75" to="65" repeatCount="indefinite" dur="5s"/>
+</line>
+<circle cx="66" cy="72" r="2" fill="yellow">
+  <animate attributeName="cy" from="72" to="62" repeatCount="indefinite" dur="5s"/>
+</circle>
+<circle cx="76.5" cy="72" r="2" fill="yellow">
+  <animate attributeName="cy" from="72" to="62" repeatCount="indefinite" dur="5s"/>
+</circle>
+<circle cx="44" cy="70" r="4" fill="tan">
+  <animate attributeName="cy" from="70" to="60" repeatCount="indefinite" dur="5s"/>
+</circle>
+<circle cx="99" cy="68" r="4" fill="tan">
+  <animate attributeName="cy" from="68" to="58" repeatCount="indefinite" dur="5s"/>
+</circle>
+<rect x="65" y="5" width="30" height="14" fill="brown" opacity="1">
+  <animate attributeName="opacity" from="1" to="0" repeatCount="indefinite" dur="5.15s"/>
+</rect>
+<line x1="130" y1="80" x2="130" y2="100" stroke="green" stroke-width="11">
+ <animate attributeName="stroke" from="green" to="red" begin="mouseover" dur="6s"/>
+ </line>
+ <rect x="120" y="75" width="21" height="8" fill="green">
+   <animate attributeName="fill" from="green" to="red" begin="mouseover" dur="6s"/>
+ </rect>
 
 
 

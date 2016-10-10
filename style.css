@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Arimo");
 
-p{font-family: Arimo; color: orange}
+p{font-family: Arimo; color: yellow}
 
 body{background-color: skyblue}
 
 h1{text-align: center; color: darkred; font-family: Arimo;}
+div{background-color: green}
